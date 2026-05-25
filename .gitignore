@@ -1,0 +1,19 @@
+# Linux kernel module build outputs
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.order
+*.symvers
+.tmp_versions/
+
+# Kernel build temp files
+Module.symvers
+modules.order
+.cache.mk
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
